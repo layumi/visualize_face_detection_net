@@ -1,0 +1,11 @@
+visualize 12net 12netc 24net 24netc 48net 48netc
+A simple code to visualize net structure(SimpleNN/DagNN) for Cascade Face Detection Net [homepage](http://www.vlfeat.org/matconvnet). 
+
+# prerequisite
+DOT (https://en.wikipedia.org/wiki/DOT_(graph_description_language))
+
+Linux/Ubuntu users can install it by "apt-get install graphviz". Windows/Mac can download it from http://www.graphviz.org
+
+The following picture is a 2stream inception net in test_net.m. You can run demo.m for more reference.
+
+![](https://github.com/layumi/visualize_matconvnet/blob/master/12net-cc-v1/12netc.png)

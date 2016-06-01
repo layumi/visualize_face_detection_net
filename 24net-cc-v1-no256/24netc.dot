@@ -1,0 +1,11 @@
+digraph G {
+input -> x1[label = Conv5x5x32Stride1];
+x1 -> x2[label = Pooling3x3Stride2];
+x2 -> x3[label = ReLU];
+x3 -> x4[label = Conv9x9x128Stride1];
+x4 -> x5[label = ReLU];
+x5 -> x6[label = DropOut];
+x6 -> x7[label = Conv1x1x45Stride1];
+x7 -> error[label = Loss];
+label -> error[label = Loss];
+}

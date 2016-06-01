@@ -1,0 +1,18 @@
+digraph G {
+input -> x1[label = Conv5x5x64Stride1];
+x1 -> x2[label = Pooling3x3Stride2];
+x2 -> x3[label = ReLU];
+x3 -> x4[label = Conv5x5x128Stride1];
+x4 -> x5[label = ReLU];
+x5 -> x6[label = Pooling3x3Stride2];
+x6 -> x7[label = Conv5x5x180Stride1];
+x7 -> x8[label = ReLU];
+x8 -> x9[label = Pooling3x3Stride2];
+x9 -> x10[label = Conv4x4x128Stride1];
+x10 -> x11[label = ReLU];
+x11 -> x12[label = Conv3x3x128Stride1];
+x12 -> x13[label = ReLU];
+x13 -> x14[label = Conv1x1x45Stride1];
+x14 -> error[label = Loss];
+label -> error[label = Loss];
+}

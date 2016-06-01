@@ -1,0 +1,14 @@
+digraph G {
+input -> x1[label = Conv3x3x16#Stride1];
+x1 -> x2[label = BatchNorm];
+x2 -> x3[label = Pooling3x3Stride2];
+x3 -> x4[label = ReLU];
+x4 -> x5[label = Conv4x4x128#Stride1];
+x5 -> x6[label = BatchNorm];
+x6 -> x7[label = ReLU];
+x7 -> x8[label = Conv1x1x45#Stride1];
+x8 -> x9[label = BatchNorm];
+x9 -> x10[label = ReLU];
+x10 -> error[label = Loss];
+label -> error[label = Loss];
+}
