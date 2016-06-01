@@ -8,4 +8,4 @@ Linux/Ubuntu users can install it by "apt-get install graphviz". Windows/Mac can
 
 The following picture is a 2stream inception net in test_net.m. You can run demo.m for more reference.
 
-![](https://github.com/layumi/visualize_matconvnet/blob/master/12net-cc-v1/12netc.png)
+![](https://github.com/layumi/visualize_face_detection_net/blob/master/12net-cc-v1/12netc.png)

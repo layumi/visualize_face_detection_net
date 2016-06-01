@@ -1,4 +1,4 @@
-visualize 12net 12netc 24net 24netc 48net 48netc
+visualize 12net_12netc_24net_24netc_48net_48netc
 A simple code to visualize net structure(SimpleNN/DagNN) for Cascade Face Detection Net [homepage](http://www.vlfeat.org/matconvnet). 
 
 # prerequisite

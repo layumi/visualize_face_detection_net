@@ -8,6 +8,7 @@ end
 dotFile = [OutputName '.dot'];
 fid = fopen(dotFile, 'w');
 fprintf(fid, 'digraph G {\n');
+fprintf(fid,'rankdir=LR;\n');
 for i = 1:numel(net.layers)
     for j = 1:numel(net.layers(i).inputs)  % multi-input to one output
         fprintf( fid,'%s -> %s', char(net.layers(i).inputs(j)), char(net.layers(i).outputs));
