@@ -6,7 +6,7 @@ DOT (https://en.wikipedia.org/wiki/DOT_(graph_description_language))
 
 Linux/Ubuntu users can install it by "apt-get install graphviz". Windows/Mac can download it from http://www.graphviz.org
 
-The following picture is a 2stream inception net in test_net.m. You can run demo.m for more reference.
+The following pictures are six net structures in cascade net.m. You can run demo.m in every dir for more reference.
 
 ![](https://github.com/layumi/visualize_face_detection_net/blob/master/12net-cc-v1/12netc.png)
 ![](https://github.com/layumi/visualize_face_detection_net/blob/master/12net-newborn/12net.png)
